@@ -22,6 +22,7 @@ const Search = (props: Props) => {
         <Input
           isInvalid={error}
           bg="#F5EDCE"
+          borderColor={'#58287F'}
           placeholder="Search or paste YouTube link here"
           onChange={handleChange}
           value={input}

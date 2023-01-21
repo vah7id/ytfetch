@@ -84,6 +84,7 @@ export default function Main() {
             <Heading className="special-elite-font" size="1xl">
             Convert your YouTube videos online from Youtube To Mp3 / WAV / MP4 / MOV / FLV for free. Paste your URL here to start :)
             </Heading>
+            <span>ver.1.1.0</span>
           </Box>
           <Search
             handleChange={handleChange}

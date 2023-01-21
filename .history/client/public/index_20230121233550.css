@@ -14,3 +14,7 @@
     padding: 20px;
     font-weight: bold;
 }
+
+body {
+    border-top: 5px solid #58287F;
+}

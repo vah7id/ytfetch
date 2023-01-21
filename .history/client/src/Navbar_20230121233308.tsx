@@ -46,8 +46,9 @@ export default function Navbar() {
               >
                 YOUTUBE DOWNLOADER TOOL
               </Link>
-              <small>(Ver.1.1.0)</small>
+              
             </Heading>
+            <small>(Ver.1.1.0)</small>
           {/*<Flex alignItems={'center'}>
             <ColorModeSwitcher />
           </Flex>*/}

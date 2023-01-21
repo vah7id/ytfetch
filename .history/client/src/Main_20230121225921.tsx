@@ -80,10 +80,14 @@ export default function Main() {
     <>
       <Container maxW="container.md">
         <Box textAlign="center" fontSize="xl">
-          <Box mt="16" mb="6">
-            <Heading className="special-elite-font" size="1xl">
-            Convert your YouTube videos online from Youtube To Mp3 / WAV / MP4 / MOV / FLV for free. Paste your URL here to start :)
+          <Box mt="5" mb="5">
+            <Heading className="special-elite-font" size="2xl">
+              YouTube Downloader
             </Heading>
+            <Text>
+              Convert and download Youtube videos in MP4, MP3, MOV and FLV for
+              free
+            </Text>
           </Box>
           <Search
             handleChange={handleChange}
@@ -106,6 +110,7 @@ export default function Main() {
           chooseFormat={chooseFormat}
           isLoading={isSearchLoading}
         />
+        <Features />
       </Container>
       <VisuallyHidden>
         <a href={downloadUrl} download ref={downloadBtnRef}>

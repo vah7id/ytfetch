@@ -21,7 +21,7 @@ const Search = (props: Props) => {
       <Flex gridGap="2">
         <Input
           isInvalid={error}
-          bg="#F5EDCE"
+          borderColor="#F5EDCE"
           placeholder="Search or paste YouTube link here"
           onChange={handleChange}
           value={input}
@@ -29,7 +29,6 @@ const Search = (props: Props) => {
         />
         <Button
           onClick={handleSearch}
-          color="#58287F"
           isLoading={isLoading}
           loadingText="Converting..."
         >

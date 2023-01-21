@@ -33,7 +33,7 @@ export default function Navbar() {
     <>
       <Box bg={"#89C4E1"} px={4}>
         
-            <Heading size="lg"  className="special-elite-font logo">
+            <Heading size="lg"  className="special-elite-font center">
               <Link
                 color="#FFF"
                 textAlign={"center"}
@@ -46,7 +46,6 @@ export default function Navbar() {
               >
                 YOUTUBE DOWNLOADER TOOL
               </Link>
-              <small>(Ver.1.1.0)</small>
             </Heading>
           {/*<Flex alignItems={'center'}>
             <ColorModeSwitcher />

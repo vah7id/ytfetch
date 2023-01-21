@@ -33,9 +33,8 @@ export default function Navbar() {
     <>
       <Box bg={"#89C4E1"} px={4}>
         
-            <Heading size="lg"  className="special-elite-font logo">
               <Link
-                color="#FFF"
+                color="#1A0000"
                 textAlign={"center"}
                 href={`${
                   isLocalHost
@@ -46,11 +45,7 @@ export default function Navbar() {
               >
                 YOUTUBE DOWNLOADER TOOL
               </Link>
-              <small>(Ver.1.1.0)</small>
-            </Heading>
-          {/*<Flex alignItems={'center'}>
-            <ColorModeSwitcher />
-          </Flex>*/}
+            
       </Box>
     </>
   );

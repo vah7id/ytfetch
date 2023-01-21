@@ -7,5 +7,6 @@ export const App = () => (
   <ChakraProvider theme={theme}>
     <Navbar />
     <Main />
+    <Footer />
   </ChakraProvider>
 );

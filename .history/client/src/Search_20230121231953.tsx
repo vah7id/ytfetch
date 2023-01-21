@@ -29,7 +29,6 @@ const Search = (props: Props) => {
         />
         <Button
           onClick={handleSearch}
-          color="#58287F"
           isLoading={isLoading}
           loadingText="Converting..."
         >

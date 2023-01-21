@@ -78,9 +78,9 @@ export default function Main() {
   };
   return (
     <>
-      <Container maxW="container.md">
+      <Container maxW="container.md" bg="#F5EDCE">
         <Box textAlign="center" fontSize="xl">
-          <Box mt="16" mb="6">
+          <Box mt="5" mb="5">
             <Heading className="special-elite-font" size="1xl">
             Convert your YouTube videos online from Youtube To Mp3 / WAV / MP4 / MOV / FLV for free. Paste your URL here to start :)
             </Heading>

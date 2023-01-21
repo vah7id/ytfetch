@@ -31,12 +31,11 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={"#89C4E1"} px={4}>
-        
-            <Heading size="lg"  className="special-elite-font logo">
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
+        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+          <HStack spacing={8} alignItems={'center'}>
+            <Heading size="md" className="special-elite-font">
               <Link
-                color="#FFF"
-                textAlign={"center"}
                 href={`${
                   isLocalHost
                     ? 'http://localhost:3000'
@@ -44,13 +43,14 @@ export default function Navbar() {
                 }`}
                 _hover={{ textDecoration: 'none', color: 'gray.500' }}
               >
-                YOUTUBE DOWNLOADER TOOL
+                YOUTUBE DOWNLOADER
               </Link>
-              <small>(Ver.1.1.0)</small>
             </Heading>
-          {/*<Flex alignItems={'center'}>
+          </HStack>
+          <Flex alignItems={'center'}>
             <ColorModeSwitcher />
-          </Flex>*/}
+          </Flex>
+        </Flex>
       </Box>
     </>
   );

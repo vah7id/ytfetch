@@ -1,16 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
-
 .special-elite-font {
     font-family: 'Inconsolata', monospace !important;
-}
-
-.special-elite-font small {
-    font-size: 14px;
-    color: 'white' !important;
-}
-
-.logo {
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
 }

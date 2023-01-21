@@ -31,11 +31,12 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={"#89C4E1"} px={4}>
-        
-            <Heading size="lg"  className="special-elite-font logo">
+      <Box bg={"#89C4E1"} px={4} alignItems={'center'}>
+        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+          <HStack alignItems={'center'}>
+            <Heading size="lg"  className="special-elite-font center">
               <Link
-                color="#FFF"
+                color="#1A0000"
                 textAlign={"center"}
                 href={`${
                   isLocalHost
@@ -46,11 +47,12 @@ export default function Navbar() {
               >
                 YOUTUBE DOWNLOADER TOOL
               </Link>
-              <small>(Ver.1.1.0)</small>
             </Heading>
+          </HStack>
           {/*<Flex alignItems={'center'}>
             <ColorModeSwitcher />
           </Flex>*/}
+          </Flex>
       </Box>
     </>
   );

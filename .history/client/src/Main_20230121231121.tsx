@@ -80,10 +80,10 @@ export default function Main() {
     <>
       <Container maxW="container.md">
         <Box textAlign="center" fontSize="xl">
-          <Box mt="16" mb="6">
-            <Heading className="special-elite-font" size="1xl">
-            Convert your YouTube videos online from Youtube To Mp3 / WAV / MP4 / MOV / FLV for free. Paste your URL here to start :)
-            </Heading>
+          <Box mt="5" mb="5">
+            <p className="special-elite-font" size="2xl">
+            Convert your YouTube videos online from Youtube To Mp3 for free. You can select from a variety of formats to convert your videos into.
+            </p>
           </Box>
           <Search
             handleChange={handleChange}
